@@ -29,8 +29,8 @@ const IdentityCard = () => {
 
   return (
     <>
-      <div className="flex mt-28 items-center justify-center h-fit relative">
-        <div id="identity-card" className="relative w-[30vw] border-2 border-black bg-white shadow-lg p-2">
+      <div className="flex mt-28  items-center justify-center h-fit relative">
+        <div id="identity-card" className="relative w-[35vw] border-2 border-black bg-white shadow-lg p-2">
           <img src="/logo.png" alt="" className='absolute w-[5vw] h-[12vh] top-[3.5rem] left-[1rem]' />
           <img src="/estd.png" alt="" className='absolute w-[5vw] h-[13vh] top-[3rem] right-[1rem]' />
           <div className="text-center bg-green-900 text-white pt-2 rounded-tr-lg">
@@ -51,44 +51,44 @@ const IdentityCard = () => {
             <div className='flex justify-center'>
               <input type="text" placeholder='Name of Student' className='text-2xl bg-transparent font-bold text-center text-black' />
             </div>
-            <div className='flex'>
+            <div className='flex gap-8'>
               <p className='flex'>
-                <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>Roll No</span>:&nbsp;  </span>
+                <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>Roll No</span>:&nbsp;  </span>
                 <input type="text" placeholder='8563g' className='text-xl bg-transparent relative top-[7px] font-semibold w-[6vw]' />
               </p>
               <p className='flex items-center'>
-                <span className='text-xl font-semibold flex justify-between w-[9vw]'><span>Blood Group</span>:&nbsp;  </span>
+                <span className='text-xl font-semibold flex justify-between w-[12vw]'><span>Blood Group</span>:&nbsp;  </span>
                 <input type="text" placeholder='a+' className='text-xl bg-transparent relative top-[7px] font-semibold uppercase w-[5vw]' />
               </p>
             </div>
-            <div className='flex'>
+            <div className='flex gap-8'>
               <p className='flex'>
-                <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>Grade</span>:&nbsp;  </span>
+                <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>Grade</span>:&nbsp;  </span>
                 <input type="text" placeholder='VI(Six)' className='bg-transparent relative top-[7px] w-[6vw] text-xl font-semibold' />
               </p>
               <p className='flex'>
-                <span className='text-xl font-semibold flex justify-between w-[9vw]'><span>Section</span>:&nbsp;  </span>
+                <span className='text-xl font-semibold flex justify-between w-[12vw]'><span>Section</span>:&nbsp;  </span>
                 <input type="text" placeholder='rapti' className='bg-transparent relative top-[7px] text-xl font-semibold w-[5vw]' />
               </p>
             </div>
             <p className='text-xl font-semibold flex'>
-              <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>D.O.B</span>:&nbsp;  </span>
-              <input type="text" placeholder='2067-05-13' className='w-[7vw] font-semibold text-xl bg-transparent relative top-[7px]' /> &nbsp; B.S.
+              <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>D.O.B</span>:&nbsp;  </span>
+              <input type="text" placeholder='2067-05-13 B.S.' className='w-fit font-semibold text-xl bg-transparent relative top-[7px]' /> &nbsp; 
             </p>
             <p className='flex'>
-              <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>Address</span>:&nbsp;  </span>
+              <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>Address</span>:&nbsp;  </span>
               <input type="text" placeholder='Birendranagar-03,Surkhet' className='bg-transparent relative top-[7px] font-semibold text-xl' />
             </p>
             <p className='flex'>
-              <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>Guardian</span>:&nbsp;  </span>
+              <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>Guardian</span>:&nbsp;  </span>
               <input type="text" placeholder='Father name' className='font-semibold bg-transparent relative top-[7px] text-xl' />
             </p>
             <p className='text-xl font-semibold flex'>
-              <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>Contact</span>:&nbsp; </span> +977-
+              <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>Contact</span>:&nbsp; </span> +977-
               <input type="text" placeholder='9800000000' className='font-semibold bg-transparent relative top-[5px] text-xl' />
             </p>
             <p className='text-xl font-semibold flex'>
-              <span className='text-xl font-semibold flex justify-between w-[6vw]'><span>Validity</span>:&nbsp; </span> 2081-12-31 B.S.
+              <span className='text-xl font-semibold flex justify-between w-[8vw]'><span>Validity</span>:&nbsp; </span> 2081-12-31 B.S.
             </p>
           </div>
           <div className="text-center bg-green-900 flex justify-around items-center h-[10vh] text-white py-2 mt-2 rounded-t-lg">
