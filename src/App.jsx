@@ -94,7 +94,7 @@ const IdentityCard = () => {
           <div className="text-center bg-green-900 flex justify-around items-center h-[10vh] text-white py-2 mt-2 rounded-t-lg">
             <div className='flex items-center'>
               <img src="/phone.png" alt="" className='h-[7vh]' />
-              <p className="text-2xl relative bottom-3">+083-525591</p>
+              <p className="text-xl relative bottom-3">+083-525591</p>
             </div>
             <div>
               <p className="text-sm flex items-center gap-2">
