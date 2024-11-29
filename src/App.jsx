@@ -30,11 +30,11 @@ const IdentityCard = () => {
   return (
     <>
       <div className="flex mt-28  items-center justify-center h-fit relative">
-        <div id="identity-card" className="relative w-[35vw] border-2 border-black bg-white shadow-lg p-2">
+        <div id="identity-card" className="relative w-[37vw] border-2 border-black bg-white shadow-lg p-2">
           <img src="/logo.png" alt="" className='absolute w-[5vw] h-[12vh] top-[3.5rem] left-[1rem]' />
           <img src="/estd.png" alt="" className='absolute w-[5vw] h-[13vh] top-[3rem] right-[1rem]' />
           <div className="text-center bg-green-900 text-white pt-2 rounded-tr-lg">
-            <h1 className="text-2xl text-yellow-400 mx-4 font-bold">SAINIK AWASIYA MAHAVIDYALAYA</h1>
+            <h1 className="text-2xl text-yellow-400  font-bold">SAINIK AWASIYA MAHAVIDYALAYA</h1>
             <p className="text-lg">Mangalgadhi, Surkhet</p>
             <p className="text-sm text-orange-400 pb-4">(Run by Nepali Army Welfare Fund)</p>
           </div>
